@@ -1,6 +1,6 @@
 # Systolic Array using PAM Multiplication
 
-Matrix multiplication systolic array using [Piecewise Approximate Multiplication](https://www.mdpi.com/2079-9292/11/12/1913) written in Verilog
+Matrix multiplication systolic array using [Piecewise Affine Multiplication](https://www.mdpi.com/2079-9292/11/12/1913) written in Verilog
 
 PAM is an approximate floating point multiplication trick. It relies on the fact that the IEEE 754 FP representation when interpreted as an integer approximately encodes `log2(|x|)`. This allows us to do approximate multiplication only using integer addition/subtraction.
 
